@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.toDolist {
+    background-color: #f5eded;
+    padding: 20px;
+    border-radius: 8px;
+    border-style: ridge;
+    border-width: 10px;
+    border-color: #f4e0e0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+}
+
+.toDolist h2 {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+.addlist_div {
+    display: flex;
+    gap: 10px;
+}
+
+#add_text {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.add_btn {
+    padding: 8px 12px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background 0.3s ease;
+}
+
+.add_btn:hover {
+    background-color: #218838;
+}
+
+.list_div {
+    margin-top: 15px;
+    text-align: left;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.list li {
+    background-color: #d6d1d1;
+    margin: 8px 0;
+    padding: 8px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    border-left: 4px solid #28a745;
+}
+
+.del_btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+    transition: background 0.3s ease;
+}
+
+.del_btn:hover {
+    background-color: #c82333;
+}
+
+
